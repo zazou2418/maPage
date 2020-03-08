@@ -8,27 +8,53 @@
     <title>Calculatrice</title>
 </head>
 <body>
+    <h1>Calculatrice </h1>
+    <!-- Blocl général -->
     <div>
-        <h1>Calculatrice addition (mais pas une casio ! )</h1>
+        <!-- Block de l'addition -->
         <div>
+            <h2> Calculatrice addition</h2>
             CHIFFRE A CALCULER : 
             <input id="chiffre1" type="number" value="0" />
-             +
+            +
             <input id="chiffre2" type="number"  value="0" />  
+            <div id="result">0</div>
+            <div>
+                <button id="calcul" >Calculer</button>
+            </div>
         </div>
-        <div id="result">0</div>
-        <button id="calcul" >Calculer</button>
+        <div>
+            <!-- Block de la soutraction -->
+            <h2>Calculatrice soustraction </h2>
+            <input id="chiffreSous1" type="number" value="0" />
+            -
+            <input id="chiffreSous2" type="number"  value="0" />  
+            <div id="resultSous">0</div>
+            <button id="calculSous" >Calculer</button>
+    
+        </div>
+        <div>
+            <h2>Calculatrice Multiplication</h2>
+            <input id="chiffreMulti1" type="number" value="0">
+            X
+            <input id="chiffreMulti2" type="number" value="0">
+            <div id="resultMulti">0</div>
+            <button id="calculMulti">Calculer</button>
 
+            
+        </div> 
+        <div>
+            <h2>Calculatrice Division</h2>
+            <input id="chiffreDivi1" type="number" value="0">
+            :
+            <input id="chiffreDivi2" type="number" value="0">
+           <div id="resultDivi">0</div>
+           <button id="calculDivi">Calculer</button>
+
+        </div>       
     </div>
+    
     <div>
-        <h1>Calculatrice soustraction (mais pas une casio ! )</h1>
-        <input id="chiffreSous1" type="number" value="0" />
-        -
-        <input id="chiffreSous2" type="number"  value="0" />  
-        <div id="resultSous">0</div>
-        <button id="calculSous" >Calculer</button>
-
-    </div>
     </div>
     <script
         src="https://code.jquery.com/jquery-3.4.1.js"

@@ -1,5 +1,5 @@
 .page {
-    background-image: url(./images/fondCalcul3.jpg);
+    background-image: url(./images/fondCalcul8.jpg);
     background-size: cover;
 }
 header {
@@ -11,7 +11,7 @@ header {
 .block-calcul {
     margin: auto;
     width: 80%;
-    background-color:#430beae6;
+    background-color:#430bea86;
     text-align: center;
     padding: 1rem;
     border-radius: 2rem;

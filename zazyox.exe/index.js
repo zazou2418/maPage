@@ -16,6 +16,11 @@ Client.on("message", message =>{
     if (message.content.includes('Lacote')) message.reply('LACOTE ? C\'est un BG au FC Lambersart :wink:');
     if (message.content === '0' ) message.reply('C\'est un chiffre :smile: !');
     if (message.content.includes('Zazyox.exe')) message.reply('On m\'a appelé ? ');
+    if (message.content.includes('Ktorza')) message.reply('Vous avez prononcé KTORZA, le chétif ?');
+    if (message.content === 'Liste Profs') message.reply('```BRIEND, KTORZA, LACOTE```');
+    if (message.content === 'Liste profs') message.reply('```BRIEND, KTORZA, LACOTE```');
+    if (message.content === 'liste profs') message.reply('```BRIEND, KTORZA, LACOTE```');
+    if (message.content === 'liste Profs') message.reply('```BRIEND, KTORZA, LACOTE```');
 });
 
 

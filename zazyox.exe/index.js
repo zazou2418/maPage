@@ -12,7 +12,7 @@ Client.on("ready", () =>{
 Client.on("message", message =>{
     if (message.content === 'Hey') message.reply('Bonsoir');
     if (message.content.includes('Briend')) message.reply('BRIEND ? Toujours sous un bureau :blond_haired_woman:');
-    if (message.content.startsWith('Louis')) message.reply('Celui qui m\'a dévelppé ?');
+    if (message.content.startsWith('Louis')) message.reply('Ah Zazyox ? Celui qui m\'a développé ? Attends, je te le mentionne. Hé MENTION_LOST , viens la !');
     if (message.content.includes('Lacote')) message.reply('LACOTE ? C\'est un BG au FC Lambersart :wink:');
     if (message.content === '0' ) message.reply('C\'est un chiffre :smile: !');
     if (message.content.includes('Zazyox.exe')) message.reply('On m\'a appelé ? ');
